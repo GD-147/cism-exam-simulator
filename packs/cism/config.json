@@ -1,0 +1,56 @@
+{
+  "examId": "cism",
+  "brandName": "CISM Certification Exam Simulator",
+  "accessPassword": "CISMREADY",
+  "practiceChunkSize": 10,
+  "examFiles": [],
+  "sections": [
+    {
+      "id": "domain1",
+      "label": "Domain I — Information Security Governance",
+      "type": "mcq",
+      "domain": "Information Security Governance",
+      "questionCount": 27,
+      "timeMin": 43,
+      "examFiles": []
+    },
+    {
+      "id": "domain2",
+      "label": "Domain II — Information Security Risk Management",
+      "type": "mcq",
+      "domain": "Information Security Risk Management",
+      "questionCount": 30,
+      "timeMin": 48,
+      "examFiles": []
+    },
+    {
+      "id": "domain3",
+      "label": "Domain III — Information Security Program",
+      "type": "mcq",
+      "domain": "Information Security Program",
+      "questionCount": 50,
+      "timeMin": 80,
+      "examFiles": []
+    },
+    {
+      "id": "domain4",
+      "label": "Domain IV — Incident Management",
+      "type": "mcq",
+      "domain": "Incident Management",
+      "questionCount": 43,
+      "timeMin": 69,
+      "examFiles": []
+    },
+    {
+      "id": "full",
+      "label": "Full-Length Practice Test",
+      "type": "mcq",
+      "questionCount": 150,
+      "timeMin": 240,
+      "examFiles": []
+    }
+  ],
+  "printables": [],
+  "theme": "dark",
+  "logoPath": "../packs/cism/assets/logo.png"
+}
