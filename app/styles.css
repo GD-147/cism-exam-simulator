@@ -261,3 +261,36 @@ body.theme-light .rubricItem{
   background: rgba(16,24,40,.03);
   border: 1px solid rgba(16,24,40,.10);
 }
+
+/* ===== CISM SCENARIO CONTEXT ===== */
+.scenarioContext {
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  border: 1px solid rgba(45, 212, 191, 0.35);
+  border-left: 4px solid #2dd4bf;
+  border-radius: 8px;
+  background: rgba(45, 212, 191, 0.08);
+  color: inherit;
+  font-size: 0.96rem;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+.scenarioLabel {
+  display: block;
+  margin-bottom: 5px;
+  color: #2dd4bf;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.questionPrompt {
+  line-height: 1.55;
+}
+
+.reviewPrompt .scenarioContext {
+  margin-bottom: 10px;
+  font-size: 0.92rem;
+}

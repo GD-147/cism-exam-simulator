@@ -3,7 +3,9 @@
   "brandName": "CISM Certification Exam Simulator",
   "accessPassword": "CISMREADY",
   "practiceChunkSize": 10,
-  "examFiles": [],
+  "examFiles": [
+    "cism_exam_01.json"
+  ],
   "sections": [
     {
       "id": "domain1",
@@ -12,7 +14,9 @@
       "domain": "Information Security Governance",
       "questionCount": 27,
       "timeMin": 43,
-      "examFiles": []
+      "examFiles": [
+        "cism_exam_01.json"
+      ]
     },
     {
       "id": "domain2",
@@ -21,7 +25,9 @@
       "domain": "Information Security Risk Management",
       "questionCount": 30,
       "timeMin": 48,
-      "examFiles": []
+      "examFiles": [
+        "cism_exam_01.json"
+      ]
     },
     {
       "id": "domain3",
@@ -30,7 +36,9 @@
       "domain": "Information Security Program",
       "questionCount": 50,
       "timeMin": 80,
-      "examFiles": []
+      "examFiles": [
+        "cism_exam_01.json"
+      ]
     },
     {
       "id": "domain4",
@@ -39,7 +47,9 @@
       "domain": "Incident Management",
       "questionCount": 43,
       "timeMin": 69,
-      "examFiles": []
+      "examFiles": [
+        "cism_exam_01.json"
+      ]
     },
     {
       "id": "full",
@@ -47,10 +57,29 @@
       "type": "mcq",
       "questionCount": 150,
       "timeMin": 240,
-      "examFiles": []
+      "examFiles": [
+        "cism_exam_01.json"
+      ]
     }
   ],
-  "printables": [],
+  "printables": [
+    {
+      "label": "Practice Exam 1 — Domain I — Information Security Governance",
+      "file": "cism_exam_01_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 2 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_01_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 3 — Domain III — Information Security Program",
+      "file": "cism_exam_01_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 4 — Domain IV — Incident Management",
+      "file": "cism_exam_01_domain_4.pdf"
+    }
+  ],
   "theme": "dark",
   "logoPath": "../packs/cism/assets/logo.png"
 }

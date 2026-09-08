@@ -71,6 +71,8 @@ function normalizeQuestion(q) {
     part: String(q.part || "").trim(),
     credits: Number(q.credits || 0),
     prompt: decodeHtmlEntitiesDeep(q.prompt || ""),
+    isScenarioBased: q.isScenarioBased === true,
+    scenarioContext: decodeHtmlEntitiesDeep(q.scenarioContext || ""),
     instruction: decodeHtmlEntitiesDeep(q.instruction || ""),
     explanation: decodeHtmlEntitiesDeep(q.explanation || ""),
     modelAnswer: decodeHtmlEntitiesDeep(q.modelAnswer || ""),
@@ -79,6 +81,23 @@ function normalizeQuestion(q) {
     choices
   };
 }
+function renderQuestionPrompt(q) {
+  const questionHtml =
+    `<div class="questionPrompt">${renderInlineMarkup(q.prompt || "")}</div>`;
+
+  if (!q.isScenarioBased || !q.scenarioContext) {
+    return questionHtml;
+  }
+
+  const scenarioHtml =
+    `<div class="scenarioContext">` +
+      `<span class="scenarioLabel">Scenario</span>` +
+      `<div>${renderInlineMarkup(q.scenarioContext)}</div>` +
+    `</div>`;
+
+  return scenarioHtml + questionHtml;
+}
+
 function getPartLabel(q) {
   const part = String(q.part || "").trim();
   const credits = Number(q.credits || 0);
@@ -472,16 +491,21 @@ if (mode === "practice") {
   );
 
   if (section.id === "full") {
-    if (chosen.questions.length !== 100) {
+    const expectedCount = Number(section.questionCount || 0);
+
+    if (
+      expectedCount > 0 &&
+      chosen.questions.length !== expectedCount
+    ) {
       throw new Error(
-        `${chosen.file} must contain exactly 100 questions for Full-Length Exam Mode; found ${chosen.questions.length}.`
+        `${chosen.file} must contain exactly ${expectedCount} questions for Full-Length Exam Mode; found ${chosen.questions.length}.`
       );
     }
 
     sessionQs = chosen.questions;
 
     metaText =
-      `Full-Length Practice Test — ${chosen.file} — 100 questions`;
+      `Full-Length Practice Test — ${chosen.file} — ${sessionQs.length} questions`;
   } else {
     sessionQs = chosen.questions;
 
@@ -521,7 +545,7 @@ if (metaEl) metaEl.textContent = metaText;
     const instructionEl = qs("itemInstruction");
     if (instructionEl) instructionEl.textContent = q.instruction || getDefaultInstruction(q);
 
-    qs("prompt").innerHTML = renderInlineMarkup(q.prompt);
+    qs("prompt").innerHTML = renderQuestionPrompt(q);
 
     const box = qs("choices");
     box.innerHTML = "";
@@ -694,7 +718,7 @@ if (metaEl) metaEl.textContent = metaText;
 
       const p = document.createElement("div");
       p.className = "reviewPrompt";
-      p.innerHTML = renderInlineMarkup(q.prompt);
+      p.innerHTML = renderQuestionPrompt(q);
 
       text.appendChild(part);
       text.appendChild(p);
