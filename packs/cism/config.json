@@ -4,7 +4,10 @@
   "accessPassword": "CISMREADY",
   "practiceChunkSize": 10,
   "examFiles": [
-    "cism_exam_01.json"
+    "cism_exam_01.json",
+    "cism_exam_02.json",
+    "cism_exam_03.json",
+    "cism_exam_04.json"
   ],
   "sections": [
     {
@@ -15,7 +18,10 @@
       "questionCount": 27,
       "timeMin": 43,
       "examFiles": [
-        "cism_exam_01.json"
+        "cism_exam_01.json",
+        "cism_exam_02.json",
+        "cism_exam_03.json",
+        "cism_exam_04.json"
       ]
     },
     {
@@ -26,7 +32,10 @@
       "questionCount": 30,
       "timeMin": 48,
       "examFiles": [
-        "cism_exam_01.json"
+        "cism_exam_01.json",
+        "cism_exam_02.json",
+        "cism_exam_03.json",
+        "cism_exam_04.json"
       ]
     },
     {
@@ -37,7 +46,10 @@
       "questionCount": 50,
       "timeMin": 80,
       "examFiles": [
-        "cism_exam_01.json"
+        "cism_exam_01.json",
+        "cism_exam_02.json",
+        "cism_exam_03.json",
+        "cism_exam_04.json"
       ]
     },
     {
@@ -48,7 +60,10 @@
       "questionCount": 43,
       "timeMin": 69,
       "examFiles": [
-        "cism_exam_01.json"
+        "cism_exam_01.json",
+        "cism_exam_02.json",
+        "cism_exam_03.json",
+        "cism_exam_04.json"
       ]
     },
     {
@@ -58,7 +73,10 @@
       "questionCount": 150,
       "timeMin": 240,
       "examFiles": [
-        "cism_exam_01.json"
+        "cism_exam_01.json",
+        "cism_exam_02.json",
+        "cism_exam_03.json",
+        "cism_exam_04.json"
       ]
     }
   ],
@@ -78,6 +96,54 @@
     {
       "label": "Practice Exam 4 — Domain IV — Incident Management",
       "file": "cism_exam_01_domain_4.pdf"
+    },
+    {
+      "label": "Practice Exam 5 — Domain I — Information Security Governance",
+      "file": "cism_exam_02_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 6 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_02_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 7 — Domain III — Information Security Program",
+      "file": "cism_exam_02_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 8 — Domain IV — Incident Management",
+      "file": "cism_exam_02_domain_4.pdf"
+    },
+    {
+      "label": "Practice Exam 9 — Domain I — Information Security Governance",
+      "file": "cism_exam_03_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 10 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_03_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 11 — Domain III — Information Security Program",
+      "file": "cism_exam_03_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 12 — Domain IV — Incident Management",
+      "file": "cism_exam_03_domain_4.pdf"
+    },
+    {
+      "label": "Practice Exam 13 — Domain I — Information Security Governance",
+      "file": "cism_exam_04_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 14 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_04_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 15 — Domain III — Information Security Program",
+      "file": "cism_exam_04_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 16 — Domain IV — Incident Management",
+      "file": "cism_exam_04_domain_4.pdf"
     }
   ],
   "theme": "dark",
