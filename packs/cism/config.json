@@ -7,7 +7,11 @@
     "cism_exam_01.json",
     "cism_exam_02.json",
     "cism_exam_03.json",
-    "cism_exam_04.json"
+    "cism_exam_04.json",
+    "cism_exam_05.json",
+    "cism_exam_06.json",
+    "cism_exam_07.json",
+    "cism_exam_08.json"
   ],
   "sections": [
     {
@@ -21,7 +25,11 @@
         "cism_exam_01.json",
         "cism_exam_02.json",
         "cism_exam_03.json",
-        "cism_exam_04.json"
+        "cism_exam_04.json",
+        "cism_exam_05.json",
+        "cism_exam_06.json",
+        "cism_exam_07.json",
+        "cism_exam_08.json"
       ]
     },
     {
@@ -35,7 +43,11 @@
         "cism_exam_01.json",
         "cism_exam_02.json",
         "cism_exam_03.json",
-        "cism_exam_04.json"
+        "cism_exam_04.json",
+        "cism_exam_05.json",
+        "cism_exam_06.json",
+        "cism_exam_07.json",
+        "cism_exam_08.json"
       ]
     },
     {
@@ -49,7 +61,11 @@
         "cism_exam_01.json",
         "cism_exam_02.json",
         "cism_exam_03.json",
-        "cism_exam_04.json"
+        "cism_exam_04.json",
+        "cism_exam_05.json",
+        "cism_exam_06.json",
+        "cism_exam_07.json",
+        "cism_exam_08.json"
       ]
     },
     {
@@ -63,7 +79,11 @@
         "cism_exam_01.json",
         "cism_exam_02.json",
         "cism_exam_03.json",
-        "cism_exam_04.json"
+        "cism_exam_04.json",
+        "cism_exam_05.json",
+        "cism_exam_06.json",
+        "cism_exam_07.json",
+        "cism_exam_08.json"
       ]
     },
     {
@@ -76,7 +96,11 @@
         "cism_exam_01.json",
         "cism_exam_02.json",
         "cism_exam_03.json",
-        "cism_exam_04.json"
+        "cism_exam_04.json",
+        "cism_exam_05.json",
+        "cism_exam_06.json",
+        "cism_exam_07.json",
+        "cism_exam_08.json"
       ]
     }
   ],
@@ -144,6 +168,70 @@
     {
       "label": "Practice Exam 16 — Domain IV — Incident Management",
       "file": "cism_exam_04_domain_4.pdf"
+    },
+    {
+      "label": "Practice Exam 17 — Domain I — Information Security Governance",
+      "file": "cism_exam_05_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 18 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_05_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 19 — Domain III — Information Security Program",
+      "file": "cism_exam_05_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 20 — Domain IV — Incident Management",
+      "file": "cism_exam_05_domain_4.pdf"
+    },
+    {
+      "label": "Practice Exam 21 — Domain I — Information Security Governance",
+      "file": "cism_exam_06_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 22 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_06_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 23 — Domain III — Information Security Program",
+      "file": "cism_exam_06_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 24 — Domain IV — Incident Management",
+      "file": "cism_exam_06_domain_4.pdf"
+    },
+    {
+      "label": "Practice Exam 25 — Domain I — Information Security Governance",
+      "file": "cism_exam_07_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 26 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_07_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 27 — Domain III — Information Security Program",
+      "file": "cism_exam_07_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 28 — Domain IV — Incident Management",
+      "file": "cism_exam_07_domain_4.pdf"
+    },
+    {
+      "label": "Practice Exam 29 — Domain I — Information Security Governance",
+      "file": "cism_exam_08_domain_1.pdf"
+    },
+    {
+      "label": "Practice Exam 30 — Domain II — Information Security Risk Management",
+      "file": "cism_exam_08_domain_2.pdf"
+    },
+    {
+      "label": "Practice Exam 31 — Domain III — Information Security Program",
+      "file": "cism_exam_08_domain_3.pdf"
+    },
+    {
+      "label": "Practice Exam 32 — Domain IV — Incident Management",
+      "file": "cism_exam_08_domain_4.pdf"
     }
   ],
   "theme": "dark",
